@@ -92,12 +92,12 @@ green "Code" button above the file list and download and extract a ZIP file
 with Aspine.
 
 - Make sure that you have installed [node.js](https://nodejs.org/), including
-npm.
+npm and bun.
 
   + On Linux-based operating systems, you should be able to find node.js in
 your package manager (e.g. `apt`/`dpkg`, `yum`/`dnf`, `zypper`, `pacman`,
 or a GUI such as Ubuntu Software Center or GNOME Software); npm may be in a
-separate package.
+separate package. You can install bun with `npm i -g bun` afterwards.
 
   + On macOS, node.js (including npm) is available on
 [Homebrew](https://brew.sh/) as [`node`](https://formulae.brew.sh/formula/node).
@@ -108,11 +108,11 @@ instructions.
 
 - Install additional dependencies through node.js (this must be done each time
 you clone or download Aspine) by opening a terminal in the directory where you
-cloned or downloaded Aspine and running `npm install`.
+cloned or downloaded Aspine and running `npm i -g bun` and then running `bun i`.
 
-- Start the Aspine server by running `npm start` in a terminal window (or
+- Start the Aspine server by running `bun start` in a terminal window (or
 Command Prompt on Windows). If you are on a Unix-like system, you can run
-`npm start &` to run the server in the background and then run `killall node`
+`bun start &` to run the server in the background and then run `killall node`
 when you want to kill the server.
 
 ## Authors
