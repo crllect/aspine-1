@@ -51,6 +51,7 @@
     "material-icons": "^0.6.1",
     "memorystore": "^1.6.7",
     "node-fetch": "^2.7.0",
+    "pdfjs": "^2.5.3",
     "pdfjs-dist": "^4.2.67",
     "tabulator-tables": "~4.1.5",
     "tilt.js": "^1.2.1"
@@ -59,6 +60,10 @@
     "@types/jsdom": "^16.2.15",
     "@types/node-fetch": "^2.6.11",
     "dotenv": "^8.2.0",
+    "prettier": "^3.2.5",
     "typescript": "^4.9.5"
-  }
+  },
+  "trustedDependencies": [
+    "@fortawesome/fontawesome-free"
+  ]
 }

@@ -809,7 +809,7 @@ async function get_session<T>(
       }),
     }
   )).text();
-  console.log(login_response.length)
+  // console.log(login_response.length) ----------- Was cluttering the console
   // const [, s] = /sessionId='(.+)';/.exec(
   //   login_response
   // ) as RegExpExecArray;
